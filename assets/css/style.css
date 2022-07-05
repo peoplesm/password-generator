@@ -17,6 +17,20 @@ body {
   background-color: #f9fbfd;
 }
 
+h1 {
+  font-size: 200%;
+  font-weight: bold;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+h2 {
+  font-size: 150%;
+  font-weight: bold;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+
 .wrapper {
   padding-top: 30px;
   padding-left: 20px;

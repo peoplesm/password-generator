@@ -83,21 +83,21 @@ let numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 let passwordArr = []; // Concat into this array
 let newPassword = []; // Makes the password
 
-// Add event listener to generate button
+// Add event listener to generate button and reset button
 generateBtn.addEventListener("click", writePassword);
 
 // Write password to the #password input
 function generatePassword() {
   //Generate char length prompt
   let pwLength = parseInt(
-    prompt("How many characters would you like your Password to be? (8-128")
+    prompt("How many characters would you like your Password to be? (8-128)")
   );
 
   //Lower case confirmation
   let lowerCaseConf = confirm("Do you want lowercase?");
 
   //Upper case confirmation
-  let upperCaseConf = confirm("Dow you want uppercase?");
+  let upperCaseConf = confirm("Do you want uppercase?");
 
   //Symbol Confirmation
   let symbolsConf = confirm("Do you want symbols?");
@@ -111,7 +111,7 @@ function generatePassword() {
       passwordArr = passwordArr.concat(lowerArr);
     }
     if (upperCaseConf) {
-      //Add lowerArr
+      //Add upperArr
       passwordArr = passwordArr.concat(upperArr);
     }
     if (symbolsConf) {
@@ -135,7 +135,8 @@ function generatePassword() {
 
 // Write password to the #password input
 function writePassword() {
+  passwordArr = [];
+  newPassword = [];
   var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-  passwordText.value = password;
+  document.querySelector("#password").value = password;
 }
