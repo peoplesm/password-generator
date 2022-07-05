@@ -130,6 +130,10 @@ function generatePassword() {
   } else {
     alert("Password must be between 8 and 128 characters please.");
   }
+
+  if (!lowerCaseConf && !upperCaseConf && !symbolsConf && !numberConf) {
+    alert("Please choose at least one character option.");
+  }
   return newPassword.join("");
 }
 
