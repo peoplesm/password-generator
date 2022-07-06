@@ -86,7 +86,7 @@ let newPassword = []; // Makes the password
 // Add event listener to generate button and reset button
 generateBtn.addEventListener("click", writePassword);
 
-// Write password to the #password input
+// Build the password
 function generatePassword() {
   //Generate char length prompt
   let pwLength = parseInt(

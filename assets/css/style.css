@@ -44,6 +44,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/* Main UI */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -86,6 +87,7 @@ header {
   clear: both;
 }
 
+/* Button Creation */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -111,6 +113,7 @@ button[disabled] {
   float: right;
 }
 
+/* Text Area */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -132,6 +135,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* Media Queries */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
