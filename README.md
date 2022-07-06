@@ -12,7 +12,7 @@ This assignment required me to use javascript to allow a user to make a password
 - Writing if/else statements
 - Create a loop that randomly selects characters from a built array
 - Practiced proper syntax and code structure
-- Use event.listener to cause one button to preform multiple functions
+- Use addeventlistener to cause one button to preform multiple functions
 
 ## Screenshot of Web Page
 
