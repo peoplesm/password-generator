@@ -20,4 +20,4 @@ This assignment required me to use javascript to allow a user to make a password
 
 ## Deployment URL
 
-hhtps://peoplesm.github.io/password-generator/
+https://peoplesm.github.io/password-generator/
