@@ -1,4 +1,4 @@
-// Assignment Code
+// Variable Declaration
 var generateBtn = document.querySelector("#generate");
 
 //Char Arrays
